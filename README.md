@@ -7,6 +7,8 @@ Create a multipart/form-data encoded string. Useful for sending attachments with
 ## API
 
 ```javascript
+  // Call MultipartFormData() anywhere in your server code
+
   /*
     Structure of 'parts' parameter
     --- Can take any key-value pair required by email API
@@ -14,14 +16,13 @@ Create a multipart/form-data encoded string. Useful for sending attachments with
   */
 
   parts = {
-      to: 'steve@apple.com',
-      from: 'Bill Gates <bill@microsoft.com>',
-      subject: 'How are you?',
-      attachment: {
-        contentType: 'text/calendar',
-        filename: 'CoffeeDate.ics',
-        value: IcsData
-      }
+    to: 'steve@apple.com',
+    from: 'Bill Gates <bill@microsoft.com>',
+    subject: 'How are you?',
+    attachment: {
+      contentType: 'text/calendar',
+      filename: 'CoffeeDate.ics',
+      value: IcsData
     }
   }
 
