@@ -1,19 +1,4 @@
 function multipartFormData (parts) {
-
-  /*
-    parts = {
-      to: 'steve@apply.com',
-      from: 'Bill Gates <bill@microsoft.com>',
-      subject: 'How are you?',
-      attachment: {
-        contentType: 'text/calendar',
-        filename: 'CoffeeDate.ics',
-        value: IcsData
-      }
-    }
-  }
-  */
-
   var boundary = '----'+(new Date()).getTime();
   var bodyString = [];
 
