@@ -1,8 +1,0 @@
-{
-  "name": "multipart-form-data",
-  "description": "Create a multipart/form-data encoded string. Useful for sending attachments with Mailgun.",
-  "homepage": "https://github.com/rosh93/meteor-multipart-form-data",
-  "author": "Roshan Jobanputra",
-  "version": "0.0.1",
-  "git": "https://github.com/rosh93/meteor-multipart-form-data.git"
-}
